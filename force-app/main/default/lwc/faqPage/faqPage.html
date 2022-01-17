@@ -1,0 +1,23 @@
+<template>
+    <p class="slds-text-heading_small">{activeSectionMessage}</p>
+
+    <lightning-accordion class="example-accordion"
+                         onsectiontoggle={handleToggleSection}>
+        <lightning-accordion-section name="Create Twitch Account" label="How do I create an account?">
+            <p>You can create a Twitch Account by filling out a form on the top of the page. Make sure your account is secure and is not shared with anyone else.</p>
+        </lightning-accordion-section>
+        <lightning-accordion-section name="Subscribe to Channel" label="How do I subscribe to a channel?">
+            <p>Click on the Products tab near the top of the page and select the product(subscription tier) and streamer you want to purchase.</p>
+        </lightning-accordion-section>
+        <lightning-accordion-section name="Streaming Software" label="What software should I use to stream?">
+            <p>There are various options like Twitch Studio, OBS Project, Streamlabs Desktop, XSplit, Elgato Game Capture, and Lightstream.</p>
+            <p>Each has its own benefits so we would recommend doing research and making your decision based on what you need.</p>
+        </lightning-accordion-section>
+        <lightning-accordion-section name="Contact Help" label="Who do I contact for help with something?">
+            <p>You can contact us by pressing the Contact Us button and submitting a ticket with the right information provided.</p>
+        </lightning-accordion-section>
+        <lightning-accordion-section name="Refunds" label="How do I submit a refund for a purchase I made?">
+            <p>You can submit the following Sub Refund Form to get in contact with an employee who can help you with your problem.</p>
+        </lightning-accordion-section>
+    </lightning-accordion>
+</template>

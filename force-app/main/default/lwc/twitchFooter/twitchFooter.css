@@ -1,0 +1,8 @@
+.title_head {
+    text-align: center;
+}
+.link_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

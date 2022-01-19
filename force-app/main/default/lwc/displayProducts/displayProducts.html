@@ -4,12 +4,13 @@
 
         <div key={product.Id} class="slds-col slds-size_1-of-2">
             <lightning-card  title={product.Name}>
-                <lightning-button label="Select" slot="actions" onclick={handleClick}></lightning-button>
                 <p class="slds-p-horizontal_small">${product.Price__c}</p>
                 <p class="slds-p-horizontal_small">{product.Description}</p>
             </lightning-card>
+            
         </div>
-    </template>
 
+        
+    </template>
 </div>
 </template>

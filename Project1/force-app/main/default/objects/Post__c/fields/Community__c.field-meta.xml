@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Community__c</fullName>
+    <description>The community the post is posted to</description>
+    <externalId>false</externalId>
+    <label>Community</label>
+    <referenceTo>Community__c</referenceTo>
+    <relationshipLabel>Posts</relationshipLabel>
+    <relationshipName>Posts</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

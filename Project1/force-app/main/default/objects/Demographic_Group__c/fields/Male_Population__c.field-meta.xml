@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Male_Population__c</fullName>
+    <externalId>false</externalId>
+    <label>Male Population</label>
+    <summaryFilterItems>
+        <field>Demographic_Profile__c.Gender__c</field>
+        <operation>equals</operation>
+        <value>Male</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Demographic_Profile__c.Demographic_Group__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

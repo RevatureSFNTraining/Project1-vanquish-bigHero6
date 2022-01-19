@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>Roborespond</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Priority</field>
+                <operation>equals</operation>
+                <value>High</value>
+            </criteriaItems>
+            <replyToEmail>trevor.kleinstuber@gmail.com</replyToEmail>
+            <senderEmail>trevor.kleinstuber@gmail.com</senderEmail>
+            <senderName>CEO</senderName>
+            <template>unfiled$public/SupportCaseResponse</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.PotentialLiability__c</field>
+                <operation>equals</operation>
+                <value>Yes</value>
+            </criteriaItems>
+            <replyToEmail>trevor.kleinstuber@gmail.com</replyToEmail>
+            <senderEmail>trevor.kleinstuber@gmail.com</senderEmail>
+            <senderName>Support</senderName>
+            <template>unfiled$public/SupportCaseResponse</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

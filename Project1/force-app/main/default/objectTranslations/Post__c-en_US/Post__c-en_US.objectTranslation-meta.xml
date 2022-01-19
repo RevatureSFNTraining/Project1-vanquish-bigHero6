@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Post</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Posts</value>
+    </caseValues>
+    <layouts>
+        <layout>External</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Internal</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Post Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label></label>
+        <name>External</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Internal</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Include_Image</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Include_Text</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Include_URL</name>
+    </validationRules>
+</CustomObjectTranslation>

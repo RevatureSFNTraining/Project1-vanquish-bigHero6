@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Big_Hero_6</fullName>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Community__c</field>
+        <operation>equals</operation>
+        <value>Big Hero 6</value>
+    </filters>
+    <label>Big Hero 6</label>
+</ListView>

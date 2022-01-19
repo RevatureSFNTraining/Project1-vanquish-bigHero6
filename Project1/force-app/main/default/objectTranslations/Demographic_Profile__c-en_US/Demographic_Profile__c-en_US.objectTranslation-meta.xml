@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Demographic Profile</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Demographic Profiles</value>
+    </caseValues>
+    <layouts>
+        <layout>Demographic Profile Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Max_Level_is_20</name>
+    </validationRules>
+</CustomObjectTranslation>

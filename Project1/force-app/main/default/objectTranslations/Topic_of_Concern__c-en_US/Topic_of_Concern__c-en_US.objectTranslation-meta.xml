@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Topic of Concern</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Topics of Concern</value>
+    </caseValues>
+    <layouts>
+        <layout>Topic of Concern Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

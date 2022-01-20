@@ -1,0 +1,14 @@
+<template>
+   
+    <div onkeyup={handleKeyUp}>
+        <lightning-input
+            name="enter-search"
+            label="Choose language and search for a word"
+            type="search"
+        ></lightning-input>
+    </div>
+    <p if:true={queryTerm}>
+        Searched for {queryTerm}!
+    </p>
+</template>
+// connect variable to apex code with SOQL to do the search

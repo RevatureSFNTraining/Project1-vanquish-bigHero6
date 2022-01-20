@@ -12,7 +12,7 @@ public class TwitchStreamerDeletePreventionTest {
         Twitch_Streamer__c ts = new Twitch_Streamer__c();
         ts.Name = 'tdrizzle';
         ts.Twitch_Streamer_Manager__r = tsm.id;
-        ts.Stream_Status__c = 'Partner';
+        ts.Streamer_Status__c = 'Partner';
         insert ts;
 
         try {
@@ -34,7 +34,7 @@ public class TwitchStreamerDeletePreventionTest {
             System.runAs(testUser) {
                 Twitch_Streamer__c ts2 = new Twitch_Streamer__c();
                 ts2.Name = 'dryPancakes123';
-                ts2.Stream_Status__c = 'Partner';
+                ts2.Streamer_Status__c = 'Partner';
                 insert ts2;
                 delete ts2;
             

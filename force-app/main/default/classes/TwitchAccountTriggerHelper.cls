@@ -4,11 +4,10 @@ public class TwitchAccountTriggerHelper {
     public static void preventDupeRecords(List<Twitch_Account__c> twitchAccountList)
     {
         for (Twitch_Account__c objAccount: twitchAccountList){
-                List<Twitch_Account__c> t = [Select ID from Twitch_Account__c WHERE Name=:objAccount.Name]
+                List<Twitch_Account__c> t = [Select ID from Twitch_Account__c WHERE Name=:objAccount.Name];
                 if (t.size() > 0){
-                    t.addError(t[0].Name+'Twitch Username Already Exists.')
+                    objAccount.addError(t[0].Name+'Twitch Username Already Exists.');
                 }
             }
         }
-    } 
-}
+    }

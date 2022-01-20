@@ -1,4 +1,4 @@
-public class CreateVODfromLivestreamSessionTriggerHelper {
+public class VODfromLivestreamTriggerHelper {
     // Whenever a livestreamer starts a livestream session, a video on demand object is created with its properities
     public static void createVODRecords(List<Livestream_Session__c> livestreamSessionList)
     {
@@ -11,9 +11,8 @@ public class CreateVODfromLivestreamSessionTriggerHelper {
                 v.VOD_Game_Title__c = objLivestream.Game_Title__c;
                 v.VOD_Date__c = objLivestream.Livestream_Date__c;
                 v.VOD_Length__c = objLivestream.Livestream_Uptime__c;
-                v.Livestream_Session__r = objLivestream.id;
+                v.Livestream_Session__r = objLivestream;
                 insert v;
             }
         }
-    } 
 }

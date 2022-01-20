@@ -1,4 +1,4 @@
-public class TwitchStreamerDeletePreventionTriggerHelper {
+public class StreamerDeletePreventionTriggerHelper {
     // a livestreamer cannot be deleted if they are assigned a streamer manager
     public static void preventTwitchstreamerDelete(List<Twitch_Streamer__c> twitchStreamerList)
     {
@@ -11,4 +11,4 @@ public class TwitchStreamerDeletePreventionTriggerHelper {
             }
         }
     } 
-}
+
